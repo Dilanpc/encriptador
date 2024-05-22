@@ -1,0 +1,62 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: rgb(65, 65, 65);
+    margin: 0;
+    height: 100%;
+}
+
+header{
+    background: linear-gradient(to bottom, aqua, rgb(65,65,65));
+    padding: 2%;
+    margin: 0;
+    border-radius: 5px;
+}
+
+#title{
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+#mainContainer{
+    background-color: white;
+    margin: 1% 5% auto 5%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+#container-label{
+    text-align: center;
+}
+
+
+.square{
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    height: 40%;
+    padding: 0.5%;
+}
+
+.text{
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+#frame-result{
+    border: solid 1px rgb(130, 130, 130);
+    border-radius: 3px;
+
+}
+
+#output{
+    margin: 0;
+    
+
+}
