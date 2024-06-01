@@ -9,15 +9,21 @@
 <body>
     <header>
         <h1 id="title">
-            Desencriptador
+            Codificar
         </h1>
     </header>
+
+    <label class="switch">
+        <input type="checkbox" id="state" onchange="updateState()">
+        <span class="slider round"></span>
+    </label>
+
     <div id="mainContainer">
-        <h3 id="container-label" class="main">Ingresa texto</h3>
-        <textarea id="input" class="main square text", oninput="decode()"></textarea>
+        <h3 class="main container-label">Ingresa texto</h3>
+        <textarea id="input" class="main square text"></textarea>
 
 
-        <h3 id="container-label" class="main">Resultado</h3>
+        <h3 class="main container-label">Resultado</h3>
         <div id="frame-result" class="square">
             <p id="output" class="text">
 
